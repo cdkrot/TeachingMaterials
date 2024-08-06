@@ -1,0 +1,30 @@
+Mathematical exercises:
+
+* Prove lemma of deduction
+
+Programming exercises:
+
+* Prove (min a (max a b) = a)
+
+* Prove (a : Nat) -> (b : Nat) -> (S a = S b) -> (a = b)
+
+* Define mult
+
+* (Possibly hard) prove multiplication properties:
+
+mult(a, b) = mult(b, a)
+mult(a, plus(b, c)) = plus(mult(a, b), mult(a, c))
+
+* Formalize and prove that if b divides by a, then b divides a+b
+Hint: some formalizations are easier to work with others!
+
+* Formalize 'a <= b' statement (it should be a Type), prove:
+* a <= b -> a + c <= b + c
+* a <= b, c <= d -> a*c <= b * d
+* a <= b, b <= a -> a = b
+
+* (Hard) Prove disjoint : (Zero = Succ n) -> Void
+(Use Builtin.replace : (x = y) -> (p x) -> p y, with p defined as Nat->Type)
+
+* Define a binary tree and insert(x) operation
+* (Hard) Prove that (depth (insert tree x) <= 1 + (depth $ insert tree x)
