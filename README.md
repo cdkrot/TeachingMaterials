@@ -10,3 +10,6 @@ Suffix Automaton
 
 Counting Primes In N^2_3, Linear Sieve, Mobius And Else:
 * https://github.com/cdkrot/TeachingMaterials/blob/main/Numbers/Counting%20Primes%20In%20N%5E2_3%2C%20Linear%20Sieve%2C%20Mobius%20And%20Else.pdf
+
+Splay Tree (inc.):
+* https://github.com/cdkrot/TeachingMaterials/blob/main/BST/Splay%20Tree.pdf
